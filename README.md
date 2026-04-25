@@ -62,7 +62,6 @@ The goal of this project is to:
 ## 🛠️ Tools Used
 
 * SQL (PostgreSQL)
-* VS Code
 * GitHub
 
 ---
