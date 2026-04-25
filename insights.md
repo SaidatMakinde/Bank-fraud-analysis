@@ -4,7 +4,7 @@
 
 Approximately 6% of transactions were flagged as anomalies.
 
-👉 Interpretation:
+# Interpretation:
 This suggests a moderate level of suspicious activity and highlights the importance of automated fraud detection systems.
 
 ---
@@ -13,7 +13,7 @@ This suggests a moderate level of suspicious activity and highlights the importa
 
 Transactions above $10,000 showed a higher fraud rate.
 
-👉 Interpretation:
+# Interpretation:
 Fraudsters often move large sums quickly, making high-value transactions a key risk indicator.
 
 ---
@@ -22,7 +22,7 @@ Fraudsters often move large sums quickly, making high-value transactions a key r
 
 Some customers performed more than 5 transactions per day.
 
-👉 Interpretation:
+# Interpretation:
 This behavior may indicate:
 
 * Automated scripts
@@ -35,7 +35,7 @@ This behavior may indicate:
 
 Certain locations showed higher anomaly rates.
 
-👉 Interpretation:
+# Interpretation:
 This may indicate fraud hotspots or regions requiring stricter monitoring.
 
 ---
@@ -44,6 +44,6 @@ This may indicate fraud hotspots or regions requiring stricter monitoring.
 
 Transfers had higher fraud rates compared to deposits.
 
-👉 Interpretation:
+# Interpretation:
 Transfers are commonly used in fraud schemes due to ease of movement between accounts.
 
