@@ -4,7 +4,7 @@
 
 Approximately 6% of transactions were flagged as anomalies.
 
-# Interpretation:
+Interpretation:
 This suggests a moderate level of suspicious activity and highlights the importance of automated fraud detection systems.
 
 ---
