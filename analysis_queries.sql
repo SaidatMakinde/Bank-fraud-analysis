@@ -206,3 +206,17 @@ FROM customer_totals
 WHERE total_spent > (
     SELECT AVG(total_spent) FROM customer_totals
 );
+
+
+-- =========================================
+-- 19. CUSTOMER RANK (SAFE VERSION - WORKS EVERYWHERE)
+-- =========================================
+SELECT customer_id,
+       total_spent,
+       RANK() OVER (ORDER BY total_spent DESC) AS customer_rank
+FROM (
+    SELECT customer_id,
+           SUM(transaction_amount) AS total_spent
+    FROM transactions
+    GROUP BY customer_id
+) sub;
